@@ -31,7 +31,7 @@ const MarkingAssistant = () => {
     setError(null);
     
     try {
-      const response = await fetch('/api/mark', {
+      const response = await fetch('https://free-tool-marking.onrender.com/api/mark', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
